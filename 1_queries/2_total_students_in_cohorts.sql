@@ -1,0 +1,4 @@
+-- SELECTS NUMBER OF STUDENTS FROM FIRST 3 COHORTS
+SELECT count(id)
+FROM students 
+WHERE cohort_id IN (1,2,3);
